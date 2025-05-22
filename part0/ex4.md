@@ -28,7 +28,7 @@ Note right of browser: Browser begins running JavaScript, which tells it to fetc
 
 browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
 activate server
-server-->>browser: The note data; i.e: [{ "content": " ", "date": "2025-05-22T14:06:58.746Z"}, ...]
+server-->>browser: [{ "content": " ", "date": "2025-05-22T14:06:58.746Z"}, ...]
 deactivate server
 
 Note right of browser: Browser now executes callback function to display the notes
