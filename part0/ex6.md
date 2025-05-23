@@ -8,5 +8,5 @@ participant server
     server-->>browser: Returns the code of the created resource
     deactivate server
 
-Note right of browser: The browser now executes teh callback function which populates the site with notes
+Note right of browser: The browser now executes the callback function which populates the site with notes
 ```
